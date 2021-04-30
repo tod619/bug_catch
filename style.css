@@ -1,5 +1,5 @@
 /* Google Font Import */
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
 
 /* Start: Global Styles */
 
@@ -8,13 +8,19 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Press Start 2P", sans-serif;
   height: 100vh;
+  overflow: hidden;
+  text-align: center;
+  margin: 0;
+}
+
+.screen {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
-  margin: 0;
+  height: 100vh;
+  width: 100vw;
 }
 /* End: Global Styles */
