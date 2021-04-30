@@ -17,6 +17,14 @@ body {
   margin: 0;
 }
 
+a {
+  color: #fff;
+}
+
+h1 {
+  line-height: 1.4;
+}
+
 .screen {
   display: flex;
   flex-direction: column;
@@ -27,7 +35,7 @@ body {
 }
 
 .screen.up {
-  margin-top: -100vh;
+  margin-top: -200vh;
 }
 
 .btn {
@@ -47,6 +55,37 @@ body {
   outline: none;
 }
 /* End: Global Styles */
+
+.insects-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+.insects-list li {
+  margin: 10px;
+}
+
+.choose-insect-btn {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  width: 150px;
+  height: 150px;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.choose-insect-btn:hover {
+  background-color: #fff;
+  color: #516dff;
+}
+
+.choose-insect-btn:active {
+  background-color: rgba(255, 255, 255, 0.7);
+}
 
 .choose-insect-btn img {
   width: 100px;
