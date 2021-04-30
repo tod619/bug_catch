@@ -8,6 +8,8 @@
 }
 
 body {
+  background-color: #516dff;
+  color: #fff;
   font-family: "Press Start 2P", sans-serif;
   height: 100vh;
   overflow: hidden;
@@ -24,3 +26,9 @@ body {
   width: 100vw;
 }
 /* End: Global Styles */
+
+.choose-insect-btn img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
