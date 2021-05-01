@@ -35,7 +35,7 @@ h1 {
 }
 
 .screen.up {
-  margin-top: -200vh;
+  margin-top: -100vh;
 }
 
 .btn {
@@ -129,4 +129,25 @@ h1 {
 .message.visible {
   transform: translate(-50%, 150%);
   opacity: 1;
+}
+
+.insect {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  transform: translate(-50%, -50%) scale(1);
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.insect.caught {
+  transform: translate(-50%, -50%) scale(0);
+}
+
+.insect img {
+  width: 100px;
+  height: 100px;
 }
